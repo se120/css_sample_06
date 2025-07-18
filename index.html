@@ -1,41 +1,41 @@
-@charset "UTF-8";
-body {
-  background-color: gray;
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>sample06 疑似クラス</title>
+</head>
+<body>
+<div id="wrap">
+  <header>
+   <p>ヘッダー要素（ページ見出しやロゴ）が入ります</p>
+  </header>
+  <nav>
+    <p>ナビゲーションが入ります</p>
+  </nav>
+  <main>
+    <p>メイン要素（見出し、本文、画像などの主要な内容）が入ります</p>
+    <p><a href="https://www.google.com">リンク</a></p>
 
-#wrap {
-  width: 960px;
-  margin: auto;
-  background-color: white;
-  border: 2px solid black;
-  padding: 20px;
-}
-
-header {
-  padding: 40px;
-  height: 80px;
-}
-
-nav {
-  padding: 8px 40px;
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-}
-
-main{
-  padding: 40px;
-  height : 400px;
-}
-
-footer {
-  padding: 40px;
-  height: 40px;
-  background-color : black;
-  color: white;
-}
-
-.circle img {
-  border-radius: 50%;
-  width: 300px;
-}
+    <h2>一行おきに色をつける</h2>
+    <table>
+      <tr>
+        <td>1行目</td>
+      </tr>
+      <tr>
+        <td>2行目（色がつく）</td>
+      </tr>
+      <tr>
+        <td>3行目</td>
+      </tr>
+      <tr>
+        <td>4行目（色がつく）</td>
+      </tr>
+    </table>
+  </main>
+  <footer>
+    <p>フッター要素（コピーライトなど）が入ります</p>
+  </footer>
+</div>
+</body>
+</html>
